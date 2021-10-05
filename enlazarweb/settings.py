@@ -75,10 +75,11 @@ WSGI_APPLICATION = 'enlazarweb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'enlazarweb',
         'USER': 'esigner',
         'PASSWORD': 'je21ye30cr06*',
+        'HOST': 'localhost',
     }
 }
 
